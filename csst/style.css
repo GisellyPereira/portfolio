@@ -1,0 +1,251 @@
+
+body{
+  padding: 0px;
+  background:#22212C ;
+  color:#837E9F ;
+  font-family: 'Merriweather Sans', sans-serif;
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+
+/* PRIMEIRA CAIXA (PERFIL) */
+.main-profile{
+  margin-top: 50px;
+  background:#302F3D ;
+  padding: 30px 100px 50px 100px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+.imgss{
+  border-radius: 50%;
+  border: 1px solid #CB92B1;
+  padding: 5px;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 18px;
+}
+.profile-h2{
+  font-weight: 700;
+  line-height: 2px;
+}
+.profile-p{
+  font-weight:400 ;
+  line-height: 20px;
+}
+/* SEGUNDA CAIXA (NETWORKS) */
+.social-networks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background:#302F3D ;
+  padding: 20px 0px 20px 0px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+.social-networks svg{
+  padding: 16px 0px 0px 40px;
+  
+}
+.social-networks p{
+  margin-left: -120px;
+  font-weight:400 ;
+  line-height: 20px;
+  
+}
+.social-networks a{
+  text-decoration: none;
+  color: #837E9F;
+}
+
+/* TERCEIRA CAIXA (TECNOLOGIAS) */
+.tec-container{
+  background:#302F3D ;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+.tec-container h2{
+  font-weight: 700;
+  padding: 15px 0px 0px 20px;
+  display: inline-block;
+}
+.tecnologias{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 22px;
+  text-align: center;
+  padding: 0px 0px 25px 35px;
+  
+}
+.tecnologias p{
+  background: #CB92B1 ;
+  color: #1C1C1C;
+  font-weight: 700;
+  border-radius: 50px;
+  width: 80px;
+  font-size: 10px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  align-items: center;
+  margin: 5px;
+  
+}
+
+/* SEGUNDA PARTE (PRIMEIRA CAIXA) */
+.projects{
+  background:#302F3D ;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.projects h2{
+  font-weight: 700;
+  font-size: 22px;
+}
+.projects a{
+  text-decoration: none;
+  color: #837E9F;
+}
+
+
+
+/* SEGUNDA PARTE (CAIXAS-DUPLAS) */
+.docs{
+  display: flex;
+}
+.docs .duas-caixas{
+  margin-left: 5px;
+}
+.duas-caixas{
+  background:#302F3D ;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-bottom: 40px;
+}
+.duas-caixas p{
+  font-size: 12px;
+}
+.duas-caixas svg{
+  padding-right: 15px;
+}
+.icone-titulo{
+  display: flex;
+ align-items: center;
+ 
+}
+.separar{
+  display: flex;
+  justify-content: space-between;
+}
+.star-branch{
+  display: flex;
+  align-items: center;
+}
+.star-branch p{
+  padding-right: 10px;
+}
+.jS{
+  display: flex;
+  align-items: center;
+
+}
+.jS span{
+  background: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 2px solid;
+  margin: 10px;
+}
+.posts{
+  background:#302F3D ;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-bottom: 40px;
+}
+.ultima-sessao{
+  display: flex;
+  align-items: center;
+  background:#302F3D ;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-bottom: 40px;
+}
+.ultima-sessao p{
+  font-size: 12px;
+}
+.img-quadrada{
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+
+@media (max-width: 1500px) {
+  body {
+    padding: 0px;
+    display: flex;
+    margin: 100px;
+  }
+  .social-networks p {
+    margin-left: -100px;
+  }
+  .tecnologias {
+    padding: 0px 0px 25px 20px;
+    
+  }
+}
+
+@media (max-width: 1240px) {
+  body {
+    padding: 0px;
+    display: block;
+    
+  }
+  .containers{
+    width: 900px;
+  }
+  .social-networks p {
+    margin-left: -330px;
+  }
+  .tecnologias {
+    padding: 0px 0px 25px 140px;
+    
+  }
+  
+  .projects{
+    width: 790px;
+  }
+  .docs{
+    display: block;
+    width: 830px;
+  }
+  .posts{
+   width: 790px;
+  }
+  .ultima-sessao{
+    width: 790px;
+  }
+}
+
+
+
+
+
